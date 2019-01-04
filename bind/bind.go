@@ -115,7 +115,7 @@ type Counter struct {
 // Gauge represents a single gauge value.
 type Gauge struct {
 	Name  string `xml:"name"`
-	Gauge int    `xml:"counter"`
+	Gauge uint64 `xml:"counter"`
 }
 
 // Task represents a single running task.
